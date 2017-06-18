@@ -1,0 +1,130 @@
+/*sidebar*/
+#sidebar-wrapper{
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+  background: rgba(76, 175, 80, 0.3);
+  
+    opacity: 0.9;
+    
+  
+
+}
+#sidebar-wrapper li a{
+  color: #000000;
+}
+/*main-menu*/
+#content-wrapper{
+	width: 100%;
+	position: absolute;
+	padding: 16px;
+
+	
+}
+#saq1{
+
+	background: rgba(76, 175, 80, 0.3);
+}
+#saq{
+	float:left;
+	
+	padding-top:7px; 
+	padding-right: 10px;
+	padding-bottom: 10px;
+
+}
+#wrapper.menuDisplayed #sidebar-wrapper{
+	width: 250px;
+}
+
+#wrapper.menuDisplayed #content-wrapper{
+	padding-left: 250px;
+}
+.sidebar-nav{
+padding: 0px;
+list-style: none;
+
+rgb(94, 163, 195)
+}
+.sidebar-nav li{
+     text-indent: 20px;
+   		  line-height: 40px;
+   		  
+   }
+.sidebar-nav li a{
+	display: block;
+	text-decoration: none;
+     font-family: 'Sniglet';font-size: 25px;
+    font-variant: small-caps;
+	color: 	#FFFFFF;
+}
+.sidebar-nav li a:hover{
+	
+	  background-color:#fff;
+  color:#002f5b;
+  border-bottom:5px solid #002f5b;
+  border-radius: 10px;
+
+}
+#mainnavbar ul {
+	padding-top: 5px;}
+#mainnavbar ul li a{
+  
+  text-decoration:none;
+  
+ 
+  
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+	
+	font-family: 'Fredoka One';font-size: 22px;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+#mainnavbar ul li a:hover{
+     background-color:#fff;
+  color:#002f5b;
+  border-bottom:5px solid #002f5b;
+  /*border-radius: 10px;
+*/
+}
+.modal-header, h3, .close {
+      background-color: #20B2AA;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /*border: 1px solid #555;
+    outline: none;*/
+}
+
+input[type=text]:focus {
+    
+     border: 1px solid #555;
+}
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /*border: 1px solid #555;
+    outline: none;*/
+}
+
+input[type=password]:focus {
+    
+     border: 1px solid #555;
+}
